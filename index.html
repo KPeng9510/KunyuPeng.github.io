@@ -298,11 +298,19 @@
       display: block;
     }
 
+    .pub-figure a {
+      display: block;
+      width: 100%;
+      height: 100%;
+    }
+
     .pub-content h3 {
       font-size: 1rem;
       margin: 0 0 0.35rem;
       line-height: 1.35;
     }
+
+    .pub-content h3 a { color: inherit; }
 
     .pub-venue {
       display: inline-block;
@@ -493,6 +501,7 @@
       <div class="card" id="news">
         <h2>News</h2>
         <ul class="clean">
+          <li><strong>2026:</strong> Three papers accepted at <strong>NeurIPS 2026</strong>, four papers accepted at <strong>ECCV 2026</strong>, and one paper accepted at <strong>ACM MM 2026</strong>.</li>
           <li><strong>2026:</strong> Serving as <strong>Area Chair (AC)</strong> for <strong>ICLR 2027</strong> and <strong>ICML 2027</strong>.</li>
           <li><strong>2026:</strong> Serving as Associated Editor for IEEE RA-L, IV, and ITSC.</li>
           <li><strong>2025:</strong> Paper accepted at <strong>NeurIPS 2025 as Spotlight</strong> (HopaDIFF).</li>
@@ -592,8 +601,112 @@
 
       <div class="pub-grid">
 
-        <!-- ============ 2025 / 2026 ============ -->
-        <div class="year-heading">2025 &ndash; 2026</div>
+        <!-- ============ 2026 ============ -->
+        <div class="year-heading">2026</div>
+
+        <!-- Read, Parse, Describe / NeurIPS 2026 -->
+        <div class="pub-card">
+          <div class="pub-figure">
+            <a href="https://arxiv.org/abs/2610.20335" target="_blank" rel="noopener noreferrer"><img src="figs/read_parse_describe.jpg" alt="Read, Parse, Describe framework overview" /></a>
+          </div>
+          <div class="pub-content">
+            <span class="pub-venue">NeurIPS 2026</span>
+            <h3><a href="https://arxiv.org/abs/2610.20335" target="_blank" rel="noopener noreferrer">Read, Parse, Describe: Unified Document Parsing with Visual Element Description Generation</a></h3>
+            <div class="pub-authors">Chen, Y., Chen, Y., Cai, Z., Liu, R., Zheng, J., Wei, J., Wen, D., Fan, W., <strong>Peng, K.</strong>, Zhang, J., Stiefelhagen, R.</div>
+            <p class="pub-desc">Introduces a unified benchmark for document parsing that jointly recovers layout, text, reading order, and accessible descriptions of visual elements, together with a spatial-awareness enhancer for layout-aware generation.</p>
+          </div>
+        </div>
+
+        <!-- VL-DocIR / NeurIPS 2026 -->
+        <div class="pub-card">
+          <div class="pub-figure">
+            <a href="https://arxiv.org/abs/2610.17057" target="_blank" rel="noopener noreferrer"><img src="figs/vl_docir.jpg" alt="VL-DocIR benchmark construction overview" /></a>
+          </div>
+          <div class="pub-content">
+            <span class="pub-venue">NeurIPS 2026</span>
+            <h3><a href="https://arxiv.org/abs/2610.17057" target="_blank" rel="noopener noreferrer">VL-DocIR: A Benchmark for Vision-Based Long Document Information Retrieval</a></h3>
+            <div class="pub-authors">Ott, S., Chen, Y., Liu, R., Zheng, J., Wei, J., Wen, D., <strong>Peng, K.</strong>, Zhang, J., Stiefelhagen, R.</div>
+            <p class="pub-desc">Presents a page-level benchmark for evidence-complete retrieval from long visual documents, spanning 388,548 rendered pages and single-page, multi-page, and cross-document evidence structures.</p>
+          </div>
+        </div>
+
+        <!-- Seeing Together / NeurIPS 2026 -->
+        <div class="pub-card">
+          <div class="pub-figure">
+            <a href="https://arxiv.org/abs/2605.18431" target="_blank" rel="noopener noreferrer"><img src="figs/seeing_together.jpg" alt="Seeing Together CoopSR benchmark overview" /></a>
+          </div>
+          <div class="pub-content">
+            <span class="pub-venue">NeurIPS 2026</span>
+            <h3><a href="https://arxiv.org/abs/2605.18431" target="_blank" rel="noopener noreferrer">Seeing Together: Multi-Robot Cooperative Egocentric Spatial Reasoning with Multimodal Large Language Models</a></h3>
+            <div class="pub-authors"><strong>Peng, K.</strong>, Zhou, Z., Yang, K., Wen, D., Liu, R., Chen, Y., Zheng, J., Shi, H., Zhou, Y., Sarfraz, M. S., Paudel, D. P., Van Gool, L.</div>
+            <p class="pub-desc">Introduces CoopSR and EgoTeam for cooperative spatial reasoning across synchronized robot viewpoints, together with SG-CoR for spectral- and geometry-aware multi-robot reasoning.</p>
+          </div>
+        </div>
+
+        <!-- InterEdit / ECCV 2026 -->
+        <div class="pub-card">
+          <div class="pub-figure">
+            <a href="https://link.springer.com/chapter/10.1007/978-3-032-37602-2_33" target="_blank" rel="noopener noreferrer"><img src="figs/interedit.jpg" alt="InterEdit method overview" /></a>
+          </div>
+          <div class="pub-content">
+            <span class="pub-venue">ECCV 2026</span>
+            <h3><a href="https://link.springer.com/chapter/10.1007/978-3-032-37602-2_33" target="_blank" rel="noopener noreferrer">InterEdit: Navigating Text-Guided 3D Dyadic Human Motion Editing</a></h3>
+            <div class="pub-authors">Yang, Y., Wen, D., Qi, L., Kong, W., Zheng, J., Liu, R., Chen, Y., Wu, C., Yang, K., Fu, Y., Paudel, D. P., Van Gool, L., <strong>Peng, K.</strong></div>
+            <p class="pub-desc">Introduces text-guided editing of two-person 3D interactions, the InterEdit3D dataset, and a synchronized conditional diffusion model that preserves interaction semantics and motion dynamics.</p>
+          </div>
+        </div>
+
+        <!-- PS-MOT / ECCV 2026 -->
+        <div class="pub-card">
+          <div class="pub-figure">
+            <a href="https://link.springer.com/chapter/10.1007/978-3-032-37167-6_11" target="_blank" rel="noopener noreferrer"><img src="figs/ps_mot.jpg" alt="PS-MOT point-supervised tracking overview" /></a>
+          </div>
+          <div class="pub-content">
+            <span class="pub-venue">ECCV 2026</span>
+            <h3><a href="https://link.springer.com/chapter/10.1007/978-3-032-37167-6_11" target="_blank" rel="noopener noreferrer">PS-MOT: Cultivating Instance Awareness from Point Seeds for Multi-object Tracking</a></h3>
+            <div class="pub-authors">Luo, K., Teng, F., Duan, M., Jia, W., Wang, X., Shi, H., <strong>Peng, K.</strong>, Li, Z., Yang, K.</div>
+            <p class="pub-desc">Develops PS-Track for point-supervised multi-object tracking, progressively converting sparse point annotations into instance-aware representations through temporal prompting, wavelet attention, and uncertainty-guided learning.</p>
+          </div>
+        </div>
+
+        <!-- WanderDream / ECCV 2026 -->
+        <div class="pub-card">
+          <div class="pub-figure">
+            <a href="https://link.springer.com/chapter/10.1007/978-3-032-37461-5_12" target="_blank" rel="noopener noreferrer"><img src="figs/wanderdream.jpg" alt="WanderDream emulative simulation overview" /></a>
+          </div>
+          <div class="pub-content">
+            <span class="pub-venue">ECCV 2026</span>
+            <h3><a href="https://link.springer.com/chapter/10.1007/978-3-032-37461-5_12" target="_blank" rel="noopener noreferrer">What If? Emulative Simulation with World Models for Situated Reasoning</a></h3>
+            <div class="pub-authors">Liu, R., Chen, Y., Zhang, Y., Zheng, J., <strong>Peng, K.</strong>, Wu, C., Huang, C., Wen, D., Zhang, J., Yang, K., Stiefelhagen, R.</div>
+            <p class="pub-desc">Introduces WanderDream for mentally simulating future visual trajectories and answering spatial “what-if” questions when active physical exploration is unavailable or unsafe.</p>
+          </div>
+        </div>
+
+        <!-- VisNec / ECCV 2026 -->
+        <div class="pub-card">
+          <div class="pub-figure">
+            <a href="https://link.springer.com/chapter/10.1007/978-3-032-37577-3_29" target="_blank" rel="noopener noreferrer"><img src="figs/visnec.jpg" alt="VisNec visual necessity examples" /></a>
+          </div>
+          <div class="pub-content">
+            <span class="pub-venue">ECCV 2026</span>
+            <h3><a href="https://link.springer.com/chapter/10.1007/978-3-032-37577-3_29" target="_blank" rel="noopener noreferrer">VisNec: Measuring and Leveraging Visual Necessity for Multimodal Instruction Tuning</a></h3>
+            <div class="pub-authors">Dong, M.*, Cai, H.*, Li, J., Zhou, S., Ren, B., <strong>Peng, K.</strong>, Fu, Y.</div>
+            <p class="pub-desc">Measures how much visual input contributes to each instruction-tuning sample, enabling compact training subsets that retain or exceed full-data multimodal performance.</p>
+          </div>
+        </div>
+
+        <!-- IMPACT / ACM MM 2026 -->
+        <div class="pub-card">
+          <div class="pub-figure">
+            <a href="https://arxiv.org/abs/2604.10409" target="_blank" rel="noopener noreferrer"><img src="figs/impact.jpg" alt="IMPACT industrial assembly dataset overview" /></a>
+          </div>
+          <div class="pub-content">
+            <span class="pub-venue">ACM MM 2026</span>
+            <h3><a href="https://arxiv.org/abs/2604.10409" target="_blank" rel="noopener noreferrer">IMPACT: A Dataset for Multi-Granularity Human Procedural Action Understanding in Industrial Assembly</a></h3>
+            <div class="pub-authors">Wen, D., Zhong, Z., Schneider, D., Zaremski, M., Kunzmann, L., Shi, Y., Liu, R., Chen, Y., Zheng, J., Li, J., Hemmerich, J., Tong, Q., Grauberger, P., Ajoudani, A., Paudel, D. P., Matthiesen, S., Deml, B., Beyerer, J., Van Gool, L., Stiefelhagen, R., <strong>Peng, K.</strong></div>
+            <p class="pub-desc">Presents a synchronized five-view RGB-D benchmark for real industrial assembly, with bimanual action labels, compliance-aware state tracking, and anomaly–recovery supervision.</p>
+          </div>
+        </div>
 
         <!-- Go Beyond Earth / ICLR 2026 -->
         <div class="pub-card">
@@ -624,6 +737,9 @@
             </p>
           </div>
         </div>
+
+        <!-- ============ 2025 ============ -->
+        <div class="year-heading">2025</div>
 
         <!-- HopaDIFF / NeurIPS 2025 Spotlight -->
         <div class="pub-card">
